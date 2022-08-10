@@ -1,0 +1,198 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f6f5f6;
+    color: #181311;
+    text-align: center;
+    margin: 0;
+}
+
+/* HEADER */
+header {
+    margin-bottom: 20px;
+}
+
+/* MAIN */
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+nav {
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 8px;
+    background-color: #bdb5b3;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    padding: 8px;
+    color: #181311;
+    font-weight: 550;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+.nav-favorite-book {
+    list-style-type: none;
+    margin-bottom: 10px;
+    background-color: #bdb5b3;
+    padding: 8px;
+
+}
+
+.nav-favorite-book ul {
+    padding-inline-start: 0;
+}
+
+h1 {
+    font-family: 'Brush Script MT', sans-serif;
+    font-size: 60px;
+    color: #241c19;
+}
+
+.image-books {
+    border-radius: 250px;
+    margin-top: 70px;
+}
+
+.book-create {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.book-create input {
+    width: 70%;
+    margin: auto;
+    display: block;
+    height: 20px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #312521;
+}
+
+.book-create button {
+    display: block;
+    margin: auto;
+    border: none;
+    font-size: 20px;
+    background-color: #76655E;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    height: 50px;
+    width: 200px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.book-create button:hover {
+    background-color: #bdb5b3;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    font-size: 18px;
+}
+
+tr {
+    background-color: #DEDAD9;
+}
+
+td {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #312521;
+}
+
+p {
+    font-size: 18px;
+}
+
+.paragraph {
+    margin-top: 40px;
+}
+
+.books-total-price {
+    margin-top: 70px;
+}
+
+.books-total-price span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img-favorite-book {
+    border-radius: 10px;
+}
+
+.book-details {
+    background-color: #dedad9;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+
+.description {
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 70px;
+    border-top: 2px solid #6e5349;
+    color: #241c19;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    color: #241c19;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #76655E;
+}
+
+@media only screen and (max-width: 900px) {
+    .image-books {
+        width: 300px;
+    }
+
+    table {
+        width: 80%;
+        margin: auto;
+    }
+
+    .book-details {
+        width: auto;
+    }
+
+    .img-favorite-book {
+        width: 300px;
+    }
+}
